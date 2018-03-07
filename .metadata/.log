@@ -2568,3 +2568,30 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY SIGNAL_CONFIG 1 0 2018-03-07 18:51:55.053
 !MESSAGE USER_ACTION : HW Signal Connection Dialog is closed..!
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:16:22.161
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:16:22.246
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-03-07 19:16:22.336
+!MESSAGE Time Taken By Serialization  : 90 ms :: C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:16:22.616
+!MESSAGE ****************Cleaning project data:network-protocol-analyzer-XMC4700*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:16:22.646
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 260 msec 
+
+!ENTRY SOLVER 1 0 2018-03-07 19:16:22.646
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2018-03-07 19:16:22.956
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-03-07 19:16:24.892
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: ilg.gnuarmeclipse.debug.gdbjtag.dsf.GnuArmGdbServerBackend$GdbServerMonitorJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-03-07 19:16:24.892
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
