@@ -1,11 +1,37 @@
-18:51:01 **** Incremental Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+20:27:40 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
 "\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+ }
+'Finished building: ../tcpIpCommunication.c'
+ ^
+
+../tcpIpCommunication.c: In function 'tcp_accepted_callback':
+../tcpIpCommunication.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
 'Invoking: ARM-GCC Print Size'
 "C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
    text	   data	    bss	    dec	    hex	filename
-  40816	    128	  43436	  84380	  1499c	network-protocol-analyzer-XMC4700.elf
+  44060	    240	  43652	  87952	  15790	network-protocol-analyzer-XMC4700.elf
 'Finished building: network-protocol-analyzer-XMC4700.siz'
 
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
 
-18:51:02 Build Finished (took 601ms)
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+
+20:27:41 Build Finished (took 1s.300ms)
 

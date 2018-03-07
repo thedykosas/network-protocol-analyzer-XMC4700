@@ -1,0 +1,247 @@
+/*
+ * utils.c
+ *
+ *  Created on: Jul 28, 2016
+ *      Author: BotezDia
+ */
+
+#include "utils.h"
+#include "macros.h"
+
+/**
+ * Search for the given character inside the given message and return its position.
+ *
+ * @param message - the given message for the search
+ * @param len - the length of the given message
+ * @param ch - the character to search
+ *
+ * @return - the index of the given character if found or -1 if the character is not found
+ */
+
+extern int BOARD_IFRO_007_002;
+
+int containsChar(char* message, int len, char ch)
+{
+	for(int i=0; i<len; i++)
+	{
+		if(ch == message[i])
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+
+/**
+ * Shift the message to the left with the given number of positions.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+void shiftStringLeft(char* message, int len, uint8_t step)
+{
+	int i;
+	for (i=step; i<len; i++)
+	{
+		message[i-step] = message[i];
+	}
+
+	if ((i-step) < len)
+		message[i-step] = '\0'; // make sure that '\0' is at the end of the message;
+}
+
+/**
+ * Shift the message to the right with the given number of positions.
+ * Make sure the buffer is long enough to avoid memory errors.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+char* shiftStringRight(char* message, int len, uint8_t step)
+{
+	char result[BUFFER_SIZE];// = malloc(sizeof(char) * (len+step));
+	int i;
+	for (i=0; i<len; i++)
+	{
+		result[i+step] = message[i];
+	}
+
+	return result;
+}
+
+/**
+ * Shift the message to the right with the given number of positions.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+void shiftStringRight2(char* message, int len, uint8_t step)
+{
+//	char result[BUFFER_SIZE];// = malloc(sizeof(char) * (len+step));
+	int i;
+	for (i=len-1; i>=0; i--)
+	{
+		message[i+step] = message[i];
+
+	}
+	for (i=0; i<12; i++)
+	{
+		message[i] = 0x00;
+	}
+
+//	return result;
+}
+
+/**
+ * This method changes the interface on which the server sends over the commands (The output interface).
+ * If the command is <code>CHNG:MODE RS232</code> the app switches the interface to RS232.
+ * If the command is <code>CHNG:MODE GPIO</code> the app switches the interface to GPIO.
+ * After changing the interfaces, the app will accept only the commands of the selected interface.
+ *
+ * @param command - the command for changing the interface
+ *
+ * @return the XMCGVISA system error code
+ */
+err_t changeModeCommand(char* command)
+{
+	if (NULL != strcasestr(command, "RS232"))
+	{
+		for(uint8_t i=0;i<GPIO_BUSS_SIZE;i++)
+		{
+			GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+		}
+		if (1 == SHOW_TCPIP_MESSAGE_ON_WEBPAGE)
+		{
+			SEND_TCPIP_MESSAGE_ON_RS232 = 1;
+			SHOW_TCPIP_MESSAGE_ON_WEBPAGE = 0;
+
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_RS232)
+		{
+			// do nothing because this interface is already selected
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_GPIO)
+		{
+			SEND_TCPIP_MESSAGE_ON_RS232 = 1;
+			SEND_TCPIP_MESSAGE_ON_GPIO = 0;
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_SPI)
+		{
+			SEND_TCPIP_MESSAGE_ON_RS232 = 1;
+			SEND_TCPIP_MESSAGE_ON_SPI = 0;
+		}
+		else if (1 == GENERIC_DRIVER_INTERFACE)
+		{
+			SEND_TCPIP_MESSAGE_ON_RS232 = 1;
+			GENERIC_DRIVER_INTERFACE = 0;
+		}
+		return XMCGVISA_OK;
+	}
+	else if (NULL != strcasestr(command, "GPIO"))
+	{
+		for(uint8_t i=0;i<GPIO_BUSS_SIZE;i++)
+		{
+			GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+		}
+		resetActiveDUT();
+		if (1 == SHOW_TCPIP_MESSAGE_ON_WEBPAGE)
+		{
+			SEND_TCPIP_MESSAGE_ON_GPIO = 1;
+			SHOW_TCPIP_MESSAGE_ON_WEBPAGE = 0;
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_GPIO)
+		{
+			//do nothing because this interface is already selected
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_RS232)
+		{
+			SEND_TCPIP_MESSAGE_ON_GPIO = 1;
+			SEND_TCPIP_MESSAGE_ON_RS232 = 0;
+		}
+		else if (1 == SEND_TCPIP_MESSAGE_ON_SPI)
+		{
+			SEND_TCPIP_MESSAGE_ON_GPIO = 1;
+			SEND_TCPIP_MESSAGE_ON_SPI = 0;
+		}
+		else if (1 == GENERIC_DRIVER_INTERFACE)
+		{
+			SEND_TCPIP_MESSAGE_ON_GPIO = 1;
+			GENERIC_DRIVER_INTERFACE = 0;
+		}
+		return XMCGVISA_OK;
+	}
+	else if (NULL != strcasestr(command, "SPI"))
+		{
+			for(uint8_t i=0;i<GPIO_BUSS_SIZE;i++)
+			{
+				GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+			}
+			if (1 == SHOW_TCPIP_MESSAGE_ON_WEBPAGE)
+			{
+				SEND_TCPIP_MESSAGE_ON_SPI = 1;
+				SHOW_TCPIP_MESSAGE_ON_WEBPAGE = 0;
+			}
+			else if (1 == SEND_TCPIP_MESSAGE_ON_SPI)
+			{
+				//do nothing because this interface is already selected
+			}
+			else if (1 == SEND_TCPIP_MESSAGE_ON_RS232)
+			{
+				SEND_TCPIP_MESSAGE_ON_SPI = 1;
+				SEND_TCPIP_MESSAGE_ON_RS232 = 0;
+			}
+			else if (1 == SEND_TCPIP_MESSAGE_ON_GPIO)
+			{
+				SEND_TCPIP_MESSAGE_ON_SPI = 1;
+				SEND_TCPIP_MESSAGE_ON_GPIO = 0;
+			}
+			else if (1 == GENERIC_DRIVER_INTERFACE)
+			{
+				SEND_TCPIP_MESSAGE_ON_SPI = 1;
+				GENERIC_DRIVER_INTERFACE = 0;
+			}
+			return XMCGVISA_OK;
+		}
+	else if (NULL != strcasestr(command, "GenericDriver") && 1==BOARD_IFRO_007_002)
+			{
+				for(uint8_t i=0;i<GPIO_BUSS_SIZE;i++)
+				{
+					GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+				}
+				DIGITAL_IO_SetOutputHigh(&GPIO_8);
+				DIGITAL_IO_SetOutputHigh(&GPIO_9);
+				DIGITAL_IO_SetOutputHigh(&GPIO_7);
+				DIGITAL_IO_SetOutputHigh(&GPIO_6);
+				if (1 == SHOW_TCPIP_MESSAGE_ON_WEBPAGE)
+				{
+					GENERIC_DRIVER_INTERFACE = 1;
+					SHOW_TCPIP_MESSAGE_ON_WEBPAGE = 0;
+				}
+				else if (1 == SEND_TCPIP_MESSAGE_ON_SPI)
+				{
+					SEND_TCPIP_MESSAGE_ON_SPI = 0;
+					GENERIC_DRIVER_INTERFACE = 1;
+					//do nothing because this interface is already selected
+				}
+				else if (1 == SEND_TCPIP_MESSAGE_ON_RS232)
+				{
+					GENERIC_DRIVER_INTERFACE = 1;
+					SEND_TCPIP_MESSAGE_ON_RS232 = 0;
+				}
+				else if (1 == SEND_TCPIP_MESSAGE_ON_GPIO)
+				{
+					GENERIC_DRIVER_INTERFACE = 1;
+					SEND_TCPIP_MESSAGE_ON_GPIO = 0;
+				}
+				else if (1 == GENERIC_DRIVER_INTERFACE)
+				{
+					//do nothing because this interface is already selected
+				}
+				return XMCGVISA_OK;
+			}
+
+	return XMCGVISA_UNKN_CMD;
+}

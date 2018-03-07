@@ -1604,3 +1604,1508 @@ C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-
   40816	    128	  43436	  84380	  1499c	network-protocol-analyzer-XMC4700.elf
 'Finished building: network-protocol-analyzer-XMC4700.siz'
 
+19:53:50 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/port/sys_arch.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/port/sys_arch.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/port/sys_arch.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/port/sys_arch.d" -MT"Dave/Generated/ETH_LWIP/lwip/port/sys_arch.d Dave/Generated/ETH_LWIP/lwip/port/sys_arch.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/port/sys_arch.o" "../Dave/Generated/ETH_LWIP/lwip/port/sys_arch.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/port/sys_arch.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/dhcp6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.d" -MT"Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.d Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.o" "../Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/netif/ethernet.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/netif/ethernet.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/netif/ethernet.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/netif/ethernet.d" -MT"Dave/Generated/ETH_LWIP/lwip/netif/ethernet.d Dave/Generated/ETH_LWIP/lwip/netif/ethernet.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/netif/ethernet.o" "../Dave/Generated/ETH_LWIP/lwip/netif/ethernet.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/netif/ethernet.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ethip6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/icmp6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/inet6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_frag.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/ip6_addr.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/mld6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.d Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv6/nd6.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/autoip.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/dhcp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/etharp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/igmp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/icmp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_frag.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.d Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.o" "../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ipv4/ip4_addr.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/def.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/def.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/def.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/def.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/def.d Dave/Generated/ETH_LWIP/lwip/core/def.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/def.o" "../Dave/Generated/ETH_LWIP/lwip/core/def.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/def.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/dns.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/dns.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/dns.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/dns.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/dns.d Dave/Generated/ETH_LWIP/lwip/core/dns.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/dns.o" "../Dave/Generated/ETH_LWIP/lwip/core/dns.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/dns.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.d Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.o" "../Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/inet_chksum.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/ip.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/ip.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/ip.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/ip.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/ip.d Dave/Generated/ETH_LWIP/lwip/core/ip.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/ip.o" "../Dave/Generated/ETH_LWIP/lwip/core/ip.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/ip.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/init.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/init.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/init.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/init.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/init.d Dave/Generated/ETH_LWIP/lwip/core/init.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/init.o" "../Dave/Generated/ETH_LWIP/lwip/core/init.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/init.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/mem.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/mem.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/mem.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/mem.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/mem.d Dave/Generated/ETH_LWIP/lwip/core/mem.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/mem.o" "../Dave/Generated/ETH_LWIP/lwip/core/mem.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/mem.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/memp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/memp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/memp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/memp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/memp.d Dave/Generated/ETH_LWIP/lwip/core/memp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/memp.o" "../Dave/Generated/ETH_LWIP/lwip/core/memp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/memp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/netif.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/netif.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/netif.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/netif.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/netif.d Dave/Generated/ETH_LWIP/lwip/core/netif.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/netif.o" "../Dave/Generated/ETH_LWIP/lwip/core/netif.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/netif.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/pbuf.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/pbuf.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/pbuf.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/pbuf.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/pbuf.d Dave/Generated/ETH_LWIP/lwip/core/pbuf.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/pbuf.o" "../Dave/Generated/ETH_LWIP/lwip/core/pbuf.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/pbuf.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/raw.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/raw.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/raw.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/raw.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/raw.d Dave/Generated/ETH_LWIP/lwip/core/raw.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/raw.o" "../Dave/Generated/ETH_LWIP/lwip/core/raw.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/raw.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/stats.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/stats.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/stats.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/stats.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/stats.d Dave/Generated/ETH_LWIP/lwip/core/stats.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/stats.o" "../Dave/Generated/ETH_LWIP/lwip/core/stats.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/stats.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/sys.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/sys.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/sys.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/sys.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/sys.d Dave/Generated/ETH_LWIP/lwip/core/sys.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/sys.o" "../Dave/Generated/ETH_LWIP/lwip/core/sys.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/sys.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/tcp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/tcp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/tcp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/tcp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/tcp.d Dave/Generated/ETH_LWIP/lwip/core/tcp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/tcp.o" "../Dave/Generated/ETH_LWIP/lwip/core/tcp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/tcp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/timeouts.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/timeouts.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/timeouts.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/timeouts.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/timeouts.d Dave/Generated/ETH_LWIP/lwip/core/timeouts.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/timeouts.o" "../Dave/Generated/ETH_LWIP/lwip/core/timeouts.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/timeouts.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/tcp_out.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/tcp_out.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/tcp_out.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/tcp_out.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/tcp_out.d Dave/Generated/ETH_LWIP/lwip/core/tcp_out.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/tcp_out.o" "../Dave/Generated/ETH_LWIP/lwip/core/tcp_out.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/tcp_out.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/tcp_in.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/tcp_in.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/tcp_in.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/tcp_in.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/tcp_in.d Dave/Generated/ETH_LWIP/lwip/core/tcp_in.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/tcp_in.o" "../Dave/Generated/ETH_LWIP/lwip/core/tcp_in.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/tcp_in.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/api_msg.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/api_msg.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/api_msg.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/api_msg.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/api_msg.d Dave/Generated/ETH_LWIP/lwip/api/api_msg.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/api_msg.o" "../Dave/Generated/ETH_LWIP/lwip/api/api_msg.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/api_msg.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/api_lib.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/api_lib.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/api_lib.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/api_lib.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/api_lib.d Dave/Generated/ETH_LWIP/lwip/api/api_lib.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/api_lib.o" "../Dave/Generated/ETH_LWIP/lwip/api/api_lib.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/api_lib.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/err.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/err.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/err.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/err.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/err.d Dave/Generated/ETH_LWIP/lwip/api/err.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/err.o" "../Dave/Generated/ETH_LWIP/lwip/api/err.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/err.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/core/udp.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/core/udp.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/core/udp.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/core/udp.d" -MT"Dave/Generated/ETH_LWIP/lwip/core/udp.d Dave/Generated/ETH_LWIP/lwip/core/udp.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/core/udp.o" "../Dave/Generated/ETH_LWIP/lwip/core/udp.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/core/udp.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/netdb.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/netdb.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/netdb.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/netdb.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/netdb.d Dave/Generated/ETH_LWIP/lwip/api/netdb.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/netdb.o" "../Dave/Generated/ETH_LWIP/lwip/api/netdb.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/netdb.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/netbuf.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/netbuf.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/netbuf.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/netbuf.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/netbuf.d Dave/Generated/ETH_LWIP/lwip/api/netbuf.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/netbuf.o" "../Dave/Generated/ETH_LWIP/lwip/api/netbuf.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/netbuf.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/netifapi.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/netifapi.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/netifapi.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/netifapi.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/netifapi.d Dave/Generated/ETH_LWIP/lwip/api/netifapi.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/netifapi.o" "../Dave/Generated/ETH_LWIP/lwip/api/netifapi.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/netifapi.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/sockets.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/sockets.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/sockets.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/sockets.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/sockets.d Dave/Generated/ETH_LWIP/lwip/api/sockets.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/sockets.o" "../Dave/Generated/ETH_LWIP/lwip/api/sockets.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/sockets.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/lwip/api/tcpip.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/lwip/api/tcpip.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/lwip/api/tcpip.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/lwip/api/tcpip.d" -MT"Dave/Generated/ETH_LWIP/lwip/api/tcpip.d Dave/Generated/ETH_LWIP/lwip/api/tcpip.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/lwip/api/tcpip.o" "../Dave/Generated/ETH_LWIP/lwip/api/tcpip.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/lwip/api/tcpip.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/eth_lwip.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/eth_lwip.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/eth_lwip.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/eth_lwip.d" -MT"Dave/Generated/ETH_LWIP/eth_lwip.d Dave/Generated/ETH_LWIP/eth_lwip.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/eth_lwip.o" "../Dave/Generated/ETH_LWIP/eth_lwip.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/eth_lwip.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/eth_lwip_conf.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/eth_lwip_conf.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/eth_lwip_conf.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/eth_lwip_conf.d" -MT"Dave/Generated/ETH_LWIP/eth_lwip_conf.d Dave/Generated/ETH_LWIP/eth_lwip_conf.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/eth_lwip_conf.o" "../Dave/Generated/ETH_LWIP/eth_lwip_conf.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/eth_lwip_conf.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.d" -MT"Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.d Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.o" "../Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_dp83848.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.d" -MT"Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.d Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.o" "../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8031rnl.c'
+
+'Building file: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.d" -MT"Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.d Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.o" "../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.c" 
+'Finished building: ../Dave/Generated/ETH_LWIP/xmc_eth_phy_ksz8081rnl.c'
+
+'Building file: ../Dave/Generated/DAVE.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "Dave/Generated/DAVE.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="Dave/Generated/DAVE.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"Dave/Generated/DAVE.d" -MT"Dave/Generated/DAVE.d Dave/Generated/DAVE.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "Dave/Generated/DAVE.o" "../Dave/Generated/DAVE.c" 
+'Finished building: ../Dave/Generated/DAVE.c'
+
+'Building file: ../tcpIpCommunication.c'
+In file included from ../tcpIpCommunication.c:10:0:
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.h:14:68: fatal error: Dave/Generated/ETH_LWIP/lwip/include/ipv4/lwip/ip_addr.h: No such file or directory
+ #include "Dave/Generated/ETH_LWIP/lwip/include/ipv4/lwip/ip_addr.h"
+                                                                    ^
+compilation terminated.
+make: *** [tcpIpCommunication.o] Error 1
+make: *** Waiting for unfinished jobs....
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+subdir.mk:21: recipe for target 'tcpIpCommunication.o' failed
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+19:54:56 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+In file included from ../tcpIpCommunication.c:10:0:
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.h:14:69: fatal error: Dave/Generated/ETH_LWIP/lwip/include/ipv4/lwip/ip4_addr.h: No such file or directory
+ #include "Dave/Generated/ETH_LWIP/lwip/include/ipv4/lwip/ip4_addr.h"
+'Invoking: ARM-GCC C Compiler'
+                                                                     ^
+compilation terminated.
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+make: *** [tcpIpCommunication.o] Error 1
+subdir.mk:21: recipe for target 'tcpIpCommunication.o' failed
+19:56:37 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+In file included from ../tcpIpCommunication.c:10:0:
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.h:17:20: fatal error: macros.h: No such file or directory
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+ #include "macros.h"
+subdir.mk:21: recipe for target 'tcpIpCommunication.o' failed
+                    ^
+compilation terminated.
+make: *** [tcpIpCommunication.o] Error 1
+19:57:44 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../macros.c'
+../macros.c:8:42: fatal error: XMC_GOES_VISA/include/macros.h: No such file or directory
+'Invoking: ARM-GCC C Compiler'
+ #include "XMC_GOES_VISA/include/macros.h"
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "macros.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="macros.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"macros.d" -MT"macros.d macros.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "macros.o" "../macros.c" 
+                                          ^
+subdir.mk:27: recipe for target 'macros.o' failed
+compilation terminated.
+make: *** [macros.o] Error 1
+make: *** Waiting for unfinished jobs....
+../utils.c:8:41: fatal error: XMC_GOES_VISA/include/utils.h: No such file or directory
+'Building file: ../utils.c'
+ #include "XMC_GOES_VISA/include/utils.h"
+'Invoking: ARM-GCC C Compiler'
+                                         ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "utils.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="utils.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"utils.d" -MT"utils.d utils.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "utils.o" "../utils.c" 
+compilation terminated.
+subdir.mk:27: recipe for target 'utils.o' failed
+make: *** [utils.o] Error 1
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'init_ETH_var':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+subdir.mk:27: recipe for target 'tcpIpCommunication.o' failed
+  ^
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:323:17: error: storage size of 'ipaddr' isn't known
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c:324:17: error: storage size of 'netmask1' isn't known
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:325:17: error: storage size of 'gw1' isn't known
+  struct ip_addr gw1;
+                 ^
+../tcpIpCommunication.c:325:17: warning: unused variable 'gw1' [-Wunused-variable]
+../tcpIpCommunication.c:324:17: warning: unused variable 'netmask1' [-Wunused-variable]
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:323:17: warning: unused variable 'ipaddr' [-Wunused-variable]
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:440:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:440:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:444:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:461:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:564:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:566:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:568:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:569:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:569:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:570:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:572:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:572:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+19:58:33 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../macros.c:8:42: fatal error: XMC_GOES_VISA/include/macros.h: No such file or directory
+'Building file: ../macros.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "macros.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="macros.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"macros.d" -MT"macros.d macros.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "macros.o" "../macros.c" 
+subdir.mk:27: recipe for target 'macros.o' failed
+ #include "XMC_GOES_VISA/include/macros.h"
+                                          ^
+compilation terminated.
+make: *** [macros.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+subdir.mk:27: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c: In function 'init_ETH_var':
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+  ^
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:323:17: error: storage size of 'ipaddr' isn't known
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c:324:17: error: storage size of 'netmask1' isn't known
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:325:17: error: storage size of 'gw1' isn't known
+  struct ip_addr gw1;
+                 ^
+../tcpIpCommunication.c:325:17: warning: unused variable 'gw1' [-Wunused-variable]
+../tcpIpCommunication.c:324:17: warning: unused variable 'netmask1' [-Wunused-variable]
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:323:17: warning: unused variable 'ipaddr' [-Wunused-variable]
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:440:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:440:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:444:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:461:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:564:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:566:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:568:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:569:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:569:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:570:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:572:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:572:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+../utils.c: In function 'shiftStringRight':
+'Building file: ../utils.c'
+../utils.c:71:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return result;
+  ^
+../utils.c: In function 'changeModeCommand':
+../utils.c:110:2: warning: implicit declaration of function 'strcasestr' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+  if (NULL != strcasestr(command, "RS232"))
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "utils.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="utils.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"utils.d" -MT"utils.d utils.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "utils.o" "../utils.c" 
+  ^
+subdir.mk:27: recipe for target 'utils.o' failed
+../utils.c:110:11: warning: comparison between pointer and integer
+  if (NULL != strcasestr(command, "RS232"))
+           ^
+../utils.c:114:4: warning: implicit declaration of function 'GPIO_setOutputPinInitialLevel' [-Wimplicit-function-declaration]
+    GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+    ^
+../utils.c:114:36: error: 'GPIO_LOW' undeclared (first use in this function)
+    GPIO_setOutputPinInitialLevel(i,GPIO_LOW);
+                                    ^
+../utils.c:114:36: note: each undeclared identifier is reported only once for each function it appears in
+../utils.c:143:16: warning: comparison between pointer and integer
+  else if (NULL != strcasestr(command, "GPIO"))
+                ^
+../utils.c:149:3: warning: implicit declaration of function 'resetActiveDUT' [-Wimplicit-function-declaration]
+   resetActiveDUT();
+   ^
+../utils.c:176:16: warning: comparison between pointer and integer
+  else if (NULL != strcasestr(command, "SPI"))
+                ^
+../utils.c:208:16: warning: comparison between pointer and integer
+  else if (NULL != strcasestr(command, "GenericDriver") && 1==BOARD_IFRO_007_002)
+                ^
+../utils.c:214:5: warning: implicit declaration of function 'DIGITAL_IO_SetOutputHigh' [-Wimplicit-function-declaration]
+     DIGITAL_IO_SetOutputHigh(&GPIO_8);
+     ^
+../utils.c:214:31: error: 'GPIO_8' undeclared (first use in this function)
+     DIGITAL_IO_SetOutputHigh(&GPIO_8);
+                               ^
+../utils.c:215:31: error: 'GPIO_9' undeclared (first use in this function)
+     DIGITAL_IO_SetOutputHigh(&GPIO_9);
+                               ^
+../utils.c:216:31: error: 'GPIO_7' undeclared (first use in this function)
+     DIGITAL_IO_SetOutputHigh(&GPIO_7);
+                               ^
+../utils.c:217:31: error: 'GPIO_6' undeclared (first use in this function)
+     DIGITAL_IO_SetOutputHigh(&GPIO_6);
+                               ^
+make: *** [utils.o] Error 1
+19:58:56 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../macros.c:8:42: fatal error: XMC_GOES_VISA/include/macros.h: No such file or directory
+ #include "XMC_GOES_VISA/include/macros.h"
+                                          ^
+compilation terminated.
+make: *** [macros.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Building file: ../macros.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "macros.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="macros.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"macros.d" -MT"macros.d macros.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "macros.o" "../macros.c" 
+subdir.mk:27: recipe for target 'macros.o' failed
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+subdir.mk:27: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c: In function 'init_ETH_var':
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+  ^
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:323:17: error: storage size of 'ipaddr' isn't known
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c:324:17: error: storage size of 'netmask1' isn't known
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:325:17: error: storage size of 'gw1' isn't known
+  struct ip_addr gw1;
+                 ^
+../tcpIpCommunication.c:325:17: warning: unused variable 'gw1' [-Wunused-variable]
+../tcpIpCommunication.c:324:17: warning: unused variable 'netmask1' [-Wunused-variable]
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:323:17: warning: unused variable 'ipaddr' [-Wunused-variable]
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:440:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:440:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:444:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:461:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:564:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:566:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:568:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:569:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:569:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:570:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:572:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:572:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+'Building file: ../utils.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "utils.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="utils.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"utils.d" -MT"utils.d utils.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "utils.o" "../utils.c" 
+'Finished building: ../utils.c'
+
+../utils.c: In function 'shiftStringRight':
+../utils.c:71:2: warning: function returns address of local variable [-Wreturn-local-addr]
+  return result;
+  ^
+20:00:22 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../macros.c:8:42: fatal error: XMC_GOES_VISA/include/macros.h: No such file or directory
+'Building file: ../macros.c'
+ #include "XMC_GOES_VISA/include/macros.h"
+                                          ^
+compilation terminated.
+make: *** [macros.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "macros.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="macros.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"macros.d" -MT"macros.d macros.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "macros.o" "../macros.c" 
+subdir.mk:24: recipe for target 'macros.o' failed
+../tcpIpCommunication.c: In function 'init_ETH_var':
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+  ^
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:323:17: error: storage size of 'ipaddr' isn't known
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c:324:17: error: storage size of 'netmask1' isn't known
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:325:17: error: storage size of 'gw1' isn't known
+  struct ip_addr gw1;
+                 ^
+../tcpIpCommunication.c:325:17: warning: unused variable 'gw1' [-Wunused-variable]
+../tcpIpCommunication.c:324:17: warning: unused variable 'netmask1' [-Wunused-variable]
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:323:17: warning: unused variable 'ipaddr' [-Wunused-variable]
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:440:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:440:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:444:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:461:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:497:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+   int aux = containsChar(message, len, '\n');
+   ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:564:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:566:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:568:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:569:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:569:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:570:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:572:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:572:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+20:00:56 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../tcpIpCommunication.c: In function 'init_ETH_var':
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+'Invoking: ARM-GCC C Compiler'
+  ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:323:17: error: storage size of 'ipaddr' isn't known
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c:324:17: error: storage size of 'netmask1' isn't known
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:325:17: error: storage size of 'gw1' isn't known
+  struct ip_addr gw1;
+                 ^
+../tcpIpCommunication.c:325:17: warning: unused variable 'gw1' [-Wunused-variable]
+../tcpIpCommunication.c:324:17: warning: unused variable 'netmask1' [-Wunused-variable]
+  struct ip_addr netmask1;
+                 ^
+../tcpIpCommunication.c:323:17: warning: unused variable 'ipaddr' [-Wunused-variable]
+  struct ip_addr ipaddr;
+                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:440:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:440:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:444:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:461:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:497:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+   int aux = containsChar(message, len, '\n');
+   ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:564:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:566:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:568:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:569:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:569:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:570:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:572:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:572:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Building file: ../macros.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "macros.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="macros.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"macros.d" -MT"macros.d macros.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "macros.o" "../macros.c" 
+'Finished building: ../macros.c'
+
+20:02:12 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../tcpIpCommunication.c: In function 'init_ETH_var':
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c:37:2: warning: implicit declaration of function 'E_EEPROM_XMC4_ReadArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_ReadArray (0, buffer_flash, 16);
+  ^
+../tcpIpCommunication.c: In function 'write_ETH_var_on_flash':
+../tcpIpCommunication.c:79:2: warning: implicit declaration of function 'E_EEPROM_XMC4_WriteArray' [-Wimplicit-function-declaration]
+  E_EEPROM_XMC4_WriteArray (0, buffer_flash,16);
+  ^
+../tcpIpCommunication.c:80:2: warning: implicit declaration of function 'E_EEPROM_XMC4_UpdateFlashContents' [-Wimplicit-function-declaration]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+  ^
+../tcpIpCommunication.c:80:10: warning: unused variable 'flash_status' [-Wunused-variable]
+  uint8_t flash_status = E_EEPROM_XMC4_UpdateFlashContents();
+          ^
+In file included from c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip_addr.h:43:0,
+                 from c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip.h:44,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:47,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+../tcpIpCommunication.c:357:13: error: 'ipaddr' undeclared (first use in this function)
+   IP4_ADDR(&ipaddr, ip.addr0, ip.addr1, ip.addr2, ip.addr3);
+             ^
+c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip4_addr.h:120:37: note: in definition of macro 'IP4_ADDR'
+ #define IP4_ADDR(ipaddr, a,b,c,d)  (ipaddr)->addr = PP_HTONL(LWIP_MAKEU32(a,b,c,d))
+                                     ^
+../tcpIpCommunication.c:357:13: note: each undeclared identifier is reported only once for each function it appears in
+   IP4_ADDR(&ipaddr, ip.addr0, ip.addr1, ip.addr2, ip.addr3);
+             ^
+c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip4_addr.h:120:37: note: in definition of macro 'IP4_ADDR'
+ #define IP4_ADDR(ipaddr, a,b,c,d)  (ipaddr)->addr = PP_HTONL(LWIP_MAKEU32(a,b,c,d))
+                                     ^
+../tcpIpCommunication.c:358:13: error: 'netmask1' undeclared (first use in this function)
+   IP4_ADDR(&netmask1, netmask.addr0, netmask.addr1 , netmask.addr2, netmask.addr3);
+             ^
+c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip4_addr.h:120:37: note: in definition of macro 'IP4_ADDR'
+ #define IP4_ADDR(ipaddr, a,b,c,d)  (ipaddr)->addr = PP_HTONL(LWIP_MAKEU32(a,b,c,d))
+                                     ^
+../tcpIpCommunication.c:359:13: error: 'gw1' undeclared (first use in this function)
+   IP4_ADDR(&gw1, gw.addr0, gw.addr1, gw.addr2, gw.addr3);
+             ^
+c:\users\panainte\desktop\documentatie\workspace-dave\network-protocol-analyzer-xmc4700\dave\generated\eth_lwip\lwip\include\lwip\ip4_addr.h:120:37: note: in definition of macro 'IP4_ADDR'
+ #define IP4_ADDR(ipaddr, a,b,c,d)  (ipaddr)->addr = PP_HTONL(LWIP_MAKEU32(a,b,c,d))
+                                     ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:417:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:421:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:438:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:474:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+   int aux = containsChar(message, len, '\n');
+   ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:541:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:543:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:545:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:546:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:546:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:547:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:549:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:549:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+20:04:07 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'ETH_LWIP_Customized_Init':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:58:29: error: 'ipaddr' undeclared (first use in this function)
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+   (void)netif_add(&xnetif, &ipaddr, &netmask1, &gw1, NULL, &ethernetif_init, &ethernet_input);
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+                             ^
+../tcpIpCommunication.c:58:29: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:58:38: error: 'netmask1' undeclared (first use in this function)
+   (void)netif_add(&xnetif, &ipaddr, &netmask1, &gw1, NULL, &ethernetif_init, &ethernet_input);
+                                      ^
+../tcpIpCommunication.c:58:49: error: 'gw1' undeclared (first use in this function)
+   (void)netif_add(&xnetif, &ipaddr, &netmask1, &gw1, NULL, &ethernetif_init, &ethernet_input);
+                                                 ^
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+../tcpIpCommunication.c:108:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb *p = tcp_active_pcbs;
+                      ^
+../tcpIpCommunication.c:112:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:129:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:165:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+   int aux = containsChar(message, len, '\n');
+   ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:232:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:234:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:236:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:237:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:237:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:238:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:240:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:240:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+20:04:24 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../tcpIpCommunication.c: In function 'disconnectAllActiveClients':
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c:106:22: error: 'tcp_active_pcbs' undeclared (first use in this function)
+'Invoking: ARM-GCC C Compiler'
+  struct tcp_pcb *p = tcp_active_pcbs;
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+                      ^
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c:106:22: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:110:3: warning: implicit declaration of function 'tcp_abandon' [-Wimplicit-function-declaration]
+   tcp_abandon(p , 0); // abandon the connection without sending a reset message
+   ^
+../tcpIpCommunication.c: In function 'sendMessageToClients':
+../tcpIpCommunication.c:127:25: error: 'tcp_active_pcbs' undeclared (first use in this function)
+  struct tcp_pcb* tpcb = tcp_active_pcbs;
+                         ^
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:163:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+   int aux = containsChar(message, len, '\n');
+   ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:230:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:232:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:234:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:235:5: error: request for member 'interface' in something not a structure or union
+  rcv.interface = TCP_INTERFACE;
+     ^
+../tcpIpCommunication.c:235:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:236:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:238:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:238:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+20:08:37 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:125:3: warning: implicit declaration of function 'containsChar' [-Wimplicit-function-declaration]
+'Invoking: ARM-GCC C Compiler'
+   int aux = containsChar(message, len, '\n');
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+   ^
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:197:18: error: 'TCP_INTERFACE' undeclared (first use in this function)
+  rcv.interface = TCP_INTERFACE;
+                  ^
+../tcpIpCommunication.c:197:18: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:200:2: warning: implicit declaration of function 'pushStateMachineQueue' [-Wimplicit-function-declaration]
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+  ^
+../tcpIpCommunication.c:200:45: error: 'queue' undeclared (first use in this function)
+  XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+                                             ^
+make: *** [tcpIpCommunication.o] Error 1
+20:11:23 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'isMessageReceivedCompletely':
+../tcpIpCommunication.c:125:12: error: 'aux' undeclared (first use in this function)
+   if ( 0 > aux )
+'Invoking: ARM-GCC C Compiler'
+            ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+../tcpIpCommunication.c:125:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [tcpIpCommunication.o] Error 1
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+20:11:36 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  42968	    236	  43652	  86856	  15348	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:16:22 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:135:2: warning: implicit declaration of function 'clearMessageReceived' [-Wimplicit-function-declaration]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+  clearMessageReceived();
+'Finished building: ../tcpIpCommunication.c'
+  ^
+
+'Building file: ../main.c'
+../main.c: In function 'main':
+'Invoking: ARM-GCC C Compiler'
+../main.c:39:2: warning: implicit declaration of function 'tcpInitServer' [-Wimplicit-function-declaration]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+  tcpInitServer(54555);
+'Finished building: ../main.c'
+  ^
+
+./tcpIpCommunication.o: In function `tcp_received_callback':
+'Building target: network-protocol-analyzer-XMC4700.elf'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:135: undefined reference to `clearMessageReceived'
+'Invoking: ARM-GCC C Linker'
+./tcpIpCommunication.o: In function `tcp_received_reset_callback':
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+makefile:66: recipe for target 'network-protocol-analyzer-XMC4700.elf' failed
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:174: undefined reference to `sendMessageToClients'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:186: undefined reference to `clearMessageReceived'
+collect2.exe: error: ld returned 1 exit status
+make: *** [network-protocol-analyzer-XMC4700.elf] Error 1
+20:16:41 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+./tcpIpCommunication.o: In function `tcp_received_callback':
+'Invoking: ARM-GCC C Linker'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:135: undefined reference to `clearMessageReceived'
+./tcpIpCommunication.o: In function `tcp_received_reset_callback':
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:174: undefined reference to `sendMessageToClients'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:186: undefined reference to `clearMessageReceived'
+collect2.exe: error: ld returned 1 exit status
+make: *** [network-protocol-analyzer-XMC4700.elf] Error 1
+makefile:66: recipe for target 'network-protocol-analyzer-XMC4700.elf' failed
+20:17:07 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+./tcpIpCommunication.o: In function `tcp_received_reset_callback':
+'Invoking: ARM-GCC C Linker'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:185: undefined reference to `sendMessageToClients'
+collect2.exe: error: ld returned 1 exit status
+make: *** [network-protocol-analyzer-XMC4700.elf] Error 1
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+makefile:66: recipe for target 'network-protocol-analyzer-XMC4700.elf' failed
+20:17:16 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  47088	    244	  44748	  92080	  167b0	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:22:06 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+./tcpIpCommunication.o: In function `tcp_accepted_callback':
+'Invoking: ARM-GCC C Linker'
+C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Debug/../tcpIpCommunication.c:161: undefined reference to `tcp_err_callback'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+collect2.exe: error: ld returned 1 exit status
+makefile:66: recipe for target 'network-protocol-analyzer-XMC4700.elf' failed
+make: *** [network-protocol-analyzer-XMC4700.elf] Error 1
+20:22:31 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44296	    240	  44748	  89284	  15cc4	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:23:00 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44296	    240	  44748	  89284	  15cc4	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:23:37 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'tcp_received_reset_callback':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:122:3: warning: implicit declaration of function 'tcpSendData' [-Wimplicit-function-declaration]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+   tcpSendData(tpcb, message, messageLength);
+'Finished building: ../tcpIpCommunication.c'
+   ^
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44296	    240	  44748	  89284	  15cc4	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:24:24 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building file: ../tcpIpCommunication.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+'Finished building: ../tcpIpCommunication.c'
+
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44296	    240	  44748	  89284	  15cc4	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+
+20:26:18 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+../tcpIpCommunication.c:28:6: error: conflicting types for 'tcp_received_callback'
+'Building file: ../tcpIpCommunication.c'
+ void tcp_received_callback(void* arg, struct tcp_pcb* tpcb, struct pbuf* p, err_t err)
+'Invoking: ARM-GCC C Compiler'
+      ^
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+In file included from ../tcpIpCommunication.c:10:0:
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+../tcpIpCommunication.h:19:7: note: previous declaration of 'tcp_received_callback' was here
+ err_t tcp_received_callback(void* arg, struct tcp_pcb* pcbTCP, struct pbuf* p, err_t err);
+       ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:38:3: warning: 'return' with a value, in function returning void
+   return XMCGVISA_OK;  // exit the callback
+   ^
+../tcpIpCommunication.c:41:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:43:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:45:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:46:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:56:4: warning: 'return' with a value, in function returning void
+    return XMCGVISA_OK;   // XMCGVISA_MEM ? // exit the callback
+    ^
+../tcpIpCommunication.c:61:6: error: 'i' undeclared (first use in this function)
+  for(i=0; i < BUFFER_SIZE; i++)
+      ^
+../tcpIpCommunication.c:61:6: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:41:23: warning: variable 'rcv' set but not used [-Wunused-but-set-variable]
+  static ReceivedParam rcv;
+                       ^
+../tcpIpCommunication.c: At top level:
+../tcpIpCommunication.c:70:6: error: conflicting types for 'tcp_accepted_callback'
+ void tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags)
+      ^
+In file included from ../tcpIpCommunication.c:10:0:
+../tcpIpCommunication.h:20:7: note: previous declaration of 'tcp_accepted_callback' was here
+ err_t tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags);
+       ^
+../tcpIpCommunication.c: In function 'tcp_accepted_callback':
+../tcpIpCommunication.c:73:17: warning: passing argument 2 of 'tcp_recv' from incompatible pointer type
+  tcp_recv(tpcb, tcp_received_callback);
+                 ^
+In file included from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58:0,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:357:18: note: expected 'tcp_recv_fn' but argument is of type 'void (*)(void *, struct tcp_pcb *, struct pbuf *, err_t)'
+ void             tcp_recv    (struct tcp_pcb *pcb, tcp_recv_fn recv);
+                  ^
+../tcpIpCommunication.c: In function 'tcpInitServer':
+../tcpIpCommunication.c:86:18: warning: passing argument 2 of 'tcp_accept' from incompatible pointer type
+  tcp_accept(pcb, tcp_accepted_callback); // accept the connection and attach the given callback
+                  ^
+In file included from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58:0,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:360:18: note: expected 'tcp_accept_fn' but argument is of type 'void (*)(void *, struct tcp_pcb *, signed char)'
+ void             tcp_accept  (struct tcp_pcb *pcb, tcp_accept_fn accept);
+                  ^
+make: *** [tcpIpCommunication.o] Error 1
+make: *** Waiting for unfinished jobs....
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+20:26:23 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../main.c'
+'Invoking: ARM-GCC C Compiler'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "main.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="main.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d main.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "main.o" "../main.c" 
+'Finished building: ../main.c'
+
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c:28:6: error: conflicting types for 'tcp_received_callback'
+'Invoking: ARM-GCC C Compiler'
+ void tcp_received_callback(void* arg, struct tcp_pcb* tpcb, struct pbuf* p, err_t err)
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+      ^
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+In file included from ../tcpIpCommunication.c:10:0:
+../tcpIpCommunication.h:23:7: note: previous declaration of 'tcp_received_callback' was here
+ err_t tcp_received_callback(void* arg, struct tcp_pcb* pcbTCP, struct pbuf* p, err_t err);
+       ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:38:3: warning: 'return' with a value, in function returning void
+   return XMCGVISA_OK;  // exit the callback
+   ^
+../tcpIpCommunication.c:41:9: error: unknown type name 'ReceivedParam'
+  static ReceivedParam rcv;
+         ^
+../tcpIpCommunication.c:43:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:45:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:46:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:56:4: warning: 'return' with a value, in function returning void
+    return XMCGVISA_OK;   // XMCGVISA_MEM ? // exit the callback
+    ^
+../tcpIpCommunication.c:61:6: error: 'i' undeclared (first use in this function)
+  for(i=0; i < BUFFER_SIZE; i++)
+      ^
+../tcpIpCommunication.c:61:6: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:41:23: warning: variable 'rcv' set but not used [-Wunused-but-set-variable]
+  static ReceivedParam rcv;
+                       ^
+../tcpIpCommunication.c: At top level:
+../tcpIpCommunication.c:70:6: error: conflicting types for 'tcp_accepted_callback'
+ void tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags)
+      ^
+In file included from ../tcpIpCommunication.c:10:0:
+../tcpIpCommunication.h:24:7: note: previous declaration of 'tcp_accepted_callback' was here
+ err_t tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags);
+       ^
+../tcpIpCommunication.c: In function 'tcp_accepted_callback':
+../tcpIpCommunication.c:73:17: warning: passing argument 2 of 'tcp_recv' from incompatible pointer type
+  tcp_recv(tpcb, tcp_received_callback);
+                 ^
+In file included from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58:0,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:357:18: note: expected 'tcp_recv_fn' but argument is of type 'void (*)(void *, struct tcp_pcb *, struct pbuf *, err_t)'
+ void             tcp_recv    (struct tcp_pcb *pcb, tcp_recv_fn recv);
+                  ^
+../tcpIpCommunication.c: In function 'tcpInitServer':
+../tcpIpCommunication.c:86:18: warning: passing argument 2 of 'tcp_accept' from incompatible pointer type
+  tcp_accept(pcb, tcp_accepted_callback); // accept the connection and attach the given callback
+                  ^
+In file included from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58:0,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:360:18: note: expected 'tcp_accept_fn' but argument is of type 'void (*)(void *, struct tcp_pcb *, signed char)'
+ void             tcp_accept  (struct tcp_pcb *pcb, tcp_accept_fn accept);
+                  ^
+make: *** [tcpIpCommunication.o] Error 1
+20:26:44 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:41:9: error: unknown type name 'ReceivedParam'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+  static ReceivedParam rcv;
+subdir.mk:24: recipe for target 'tcpIpCommunication.o' failed
+         ^
+../tcpIpCommunication.c:43:12: error: request for member 'msg' in something not a structure or union
+  memset(rcv.msg,'\0',BUFFER_SIZE);
+            ^
+../tcpIpCommunication.c:45:12: error: request for member 'msg' in something not a structure or union
+  memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+            ^
+../tcpIpCommunication.c:46:5: error: request for member 'tpcb' in something not a structure or union
+  rcv.tpcb = tpcb;
+     ^
+../tcpIpCommunication.c:61:6: error: 'i' undeclared (first use in this function)
+  for(i=0; i < BUFFER_SIZE; i++)
+      ^
+../tcpIpCommunication.c:61:6: note: each undeclared identifier is reported only once for each function it appears in
+../tcpIpCommunication.c:41:23: warning: variable 'rcv' set but not used [-Wunused-but-set-variable]
+  static ReceivedParam rcv;
+                       ^
+../tcpIpCommunication.c: At top level:
+../tcpIpCommunication.c:70:6: error: conflicting types for 'tcp_accepted_callback'
+ void tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags)
+      ^
+In file included from ../tcpIpCommunication.c:10:0:
+../tcpIpCommunication.h:24:7: note: previous declaration of 'tcp_accepted_callback' was here
+ err_t tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags);
+       ^
+../tcpIpCommunication.c: In function 'tcpInitServer':
+../tcpIpCommunication.c:86:18: warning: passing argument 2 of 'tcp_accept' from incompatible pointer type
+  tcp_accept(pcb, tcp_accepted_callback); // accept the connection and attach the given callback
+                  ^
+In file included from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/eth_lwip.h:58:0,
+                 from C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/DAVE.h:61,
+                 from ../tcpIpCommunication.c:8:
+C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h:360:18: note: expected 'tcp_accept_fn' but argument is of type 'void (*)(void *, struct tcp_pcb *, signed char)'
+ void             tcp_accept  (struct tcp_pcb *pcb, tcp_accept_fn accept);
+                  ^
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+../tcpIpCommunication.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [tcpIpCommunication.o] Error 1
+20:27:40 **** Build of configuration Debug for project network-protocol-analyzer-XMC4700 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 all 
+'Building file: ../tcpIpCommunication.c'
+../tcpIpCommunication.c: In function 'tcp_received_callback':
+'Invoking: ARM-GCC C Compiler'
+../tcpIpCommunication.c:31:1: warning: control reaches end of non-void function [-Wreturn-type]
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -MMD -MT "tcpIpCommunication.o" -DXMC4700_F144x2048 -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/XMCLib/inc" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries/CMSIS/Infineon/XMC4700_series/Include" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Dave/Generated" -I"C:/Users/panainte/Desktop/documentatie/workspace-dave/network-protocol-analyzer-XMC4700/Libraries" -O0 -ffunction-sections -fdata-sections -Wall -std=gnu99 -mfloat-abi=softfp -Wa,-adhlns="tcpIpCommunication.o.lst" -pipe -c -fmessage-length=0 -MMD -MP -MF"tcpIpCommunication.d" -MT"tcpIpCommunication.d tcpIpCommunication.o" -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mthumb -g -gdwarf-2 -o "tcpIpCommunication.o" "../tcpIpCommunication.c" 
+ }
+'Finished building: ../tcpIpCommunication.c'
+ ^
+
+../tcpIpCommunication.c: In function 'tcp_accepted_callback':
+../tcpIpCommunication.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Building target: network-protocol-analyzer-XMC4700.elf'
+'Invoking: ARM-GCC C Linker'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-gcc" -T"../linker_script.ld" -nostartfiles -Xlinker --gc-sections -specs=nano.specs -specs=nosys.specs -Wl,-Map,"network-protocol-analyzer-XMC4700.map" -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -mcpu=cortex-m4 -mthumb -g -gdwarf-2 -o "network-protocol-analyzer-XMC4700.elf" "@objects.rsp"  -lm
+'Finished building target: network-protocol-analyzer-XMC4700.elf'
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "network-protocol-analyzer-XMC4700.elf"
+   text	   data	    bss	    dec	    hex	filename
+  44060	    240	  43652	  87952	  15790	network-protocol-analyzer-XMC4700.elf
+'Finished building: network-protocol-analyzer-XMC4700.siz'
+
+'Invoking: ARM-GCC Create Flash Image'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objcopy" -O ihex "network-protocol-analyzer-XMC4700.elf" "network-protocol-analyzer-XMC4700.hex"
+'Finished building: network-protocol-analyzer-XMC4700.hex'
+
+'Invoking: ARM-GCC Create Listing'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-objdump" -h -S "network-protocol-analyzer-XMC4700.elf" > "network-protocol-analyzer-XMC4700.lst"
+'Finished building: network-protocol-analyzer-XMC4700.lst'
+

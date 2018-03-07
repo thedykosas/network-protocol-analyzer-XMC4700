@@ -6,7 +6,7 @@
  */
 
 #include <DAVE.h>                 //Declarations from DAVE Code Generation (includes SFR declaration)
-
+#include "tcpIpCommunication.h"
 /**
 
  * @brief main() - Application entry point
@@ -25,7 +25,6 @@ void netif_status_cb(void)
 
 int main(void) {
 	DAVE_STATUS_t status;
-
 	status = DAVE_Init(); /* Initialization of DAVE APPs  */
 
 	if (status != DAVE_STATUS_SUCCESS) {
@@ -36,6 +35,8 @@ int main(void) {
 
 		}
 	}
+
+	tcpInitServer(54555);
 	/* Placeholder for user application code. The while loop below can be replaced with user application code. */
 	while (1U) {
 

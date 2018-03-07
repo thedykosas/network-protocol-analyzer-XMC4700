@@ -2595,3 +2595,157 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.core.jobs 2 2 2018-03-07 19:16:24.892
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.internal.ui.DebugUIPlugin$8
+!SESSION 2018-03-07 19:41:18.673 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -application com.ifx.davex.product.daveApplication -showlocation -application com.ifx.davex.product.daveApplication -showlocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -application com.ifx.davex.product.daveApplication -showlocation -data C:\Users\panainte\Desktop\documentatie\workspace-dave -application com.ifx.davex.product.daveApplication -showlocation
+
+!ENTRY org.eclipse.core.variables 4 120 2018-03-07 19:41:25.456
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_path' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.core.variables 4 120 2018-03-07 19:41:25.456
+!MESSAGE Contributed variable extension from bundle 'ilg.gnuarmeclipse.debug.gdbjtag.mikroe' overrides existing extension variable 'jlink_gdbserver' from  bundle 'ilg.gnuarmeclipse.debug.gdbjtag.jlink'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-07 19:41:30.454
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-03-07 19:41:30.454
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\panainte'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY SOLVER 1 0 2018-03-07 19:41:31.374
+!MESSAGE USER_ACTION : Default solver exe path is: C:\DAVEv4-64Bit\DAVE-4.3.2\eclipse\Solver\lib\i386_nt\eclipse.exe
+
+!ENTRY SOLVER 1 0 2018-03-07 19:41:31.644
+!MESSAGE USER_ACTION : GlobalSize= 750MB; LocalSize: 128MB
+
+!ENTRY SOLVER 1 0 2018-03-07 19:41:31.644
+!MESSAGE USER_ACTION : Creating OutOfProcessEclipse instance...
+
+!ENTRY SOLVER 1 0 2018-03-07 19:41:32.074
+!MESSAGE USER_ACTION : Solver Status: CONNECTED
+
+!ENTRY APPSTORE 1 0 2018-03-07 19:41:32.577
+!MESSAGE USER_ACTION : Time taken for loading LibraryStore data for SoftwareId [XMC4.7.00.F144.ALL] is: 493 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:32.797
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:33.167
+!MESSAGE USER_ACTION : Active project:network-protocol-analyzer-XMC4700[ Software ID:XMC4.7.00.F144.ALL]
+
+!ENTRY COMMON 1 0 2018-03-07 19:41:34.739
+!MESSAGE Time Taken By De-Serialization  : 970 ms :: C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:41:34.749
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:34.919
+!MESSAGE USER_ACTION : Time taken for initializing Application Model is: 1752 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:34.929
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(updateQuery): 10 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:34.949
+!MESSAGE USER_ACTION : Time taken for reloadLastSolverResult(getSolutionQuery): 20 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:34.949
+!MESSAGE USER_ACTION : Time taken for updating views is: 0 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:36.019
+!MESSAGE USER_ACTION : Time taken for rendering views is: 1070 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:36.439
+!MESSAGE USER_ACTION : Total time taken for setting project as active is: 3642 msec 
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 19:41:37.179
+!MESSAGE Only One DAVE Application is running 
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-03-07 19:41:37.300
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/Examples/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-03-07 19:41:38.370
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/XMC_IFX/v4.1//daveSite.xml
+
+!ENTRY com.ifx.dave.LibraryManager 4 0 2018-03-07 19:41:39.920
+!MESSAGE Reading file: http://dave.infineon.com/Libraries/DAVE_Libs/Contributed/v4.1//daveSite.xml
+
+!ENTRY UI_EDITOR 1 0 2018-03-07 19:47:42.559
+!MESSAGE USER_ACTION : Setting value = "false" of "gcheck_netif_name" in APP: ETH_LWIP/4.1.6/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.589
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.589
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.649
+!MESSAGE Time taken for serialization in msec: 60
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.649
+!MESSAGE *****************************
+
+!ENTRY UI_EDITOR 1 0 2018-03-07 19:47:42.939
+!MESSAGE USER_ACTION : Setting value = "false" of "gcheck_netif_status_cb" in APP: ETH_LWIP/4.1.6/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.939
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.939
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:42.999
+!MESSAGE Time taken for serialization in msec: 60
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:47:43.009
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:47:44.999
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:47:46.589
+!MESSAGE Code generation completed...
+
+!ENTRY APP_CONFIGURATOR 1 0 2018-03-07 19:49:22.607
+!MESSAGE USER_ACTION : Time taken for opening editor is: 370 msec 
+
+!ENTRY UI_EDITOR 1 0 2018-03-07 19:49:54.377
+!MESSAGE USER_ACTION : Setting value = "true" of "gcheck_igmp_en" in APP: ETH_LWIP/4.1.6/0
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:49:54.387
+!MESSAGE **************Serialization is called for successful UI action without Solver*********
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:49:54.387
+!MESSAGE *************Serializing EMF and Groovy data to RAM*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:49:54.447
+!MESSAGE Time taken for serialization in msec: 50
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 19:49:54.447
+!MESSAGE *****************************
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:49:59.147
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:50:00.287
+!MESSAGE Code generation completed...
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-03-07 19:50:12.757
+!MESSAGE Indexed 'network-protocol-analyzer-XMC4700' (99 sources, 228 headers) in 6.81 sec: 18,627 declarations; 57,043 references; 10 unresolved inclusions; 0 syntax errors; 216 unresolved names (0.28%)
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:53:47.708
+!MESSAGE Code generation started...
+
+!ENTRY CODEGEN 1 0 2018-03-07 19:53:48.815
+!MESSAGE Code generation completed...

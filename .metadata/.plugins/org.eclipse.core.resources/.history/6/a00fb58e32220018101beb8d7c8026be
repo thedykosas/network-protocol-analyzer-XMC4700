@@ -1,0 +1,452 @@
+/*
+ * tcpIpCommunication.c
+ *
+ *  Created on: Feb 11, 2016
+ *      Author: BotezDia
+ */
+
+#include <DAVE.h>
+#include "Dave/Generated/ETH_LWIP/lwip/include/lwip/tcp.h"
+#include "tcpIpCommunication.h"
+
+#include "Dave/Generated/ETH_LWIP/eth_lwip.h"
+#include "Dave/Generated/ETH_LWIP/lwip/include/lwip/netif.h"
+#include "Dave/Generated/ETH_LWIP/lwip/port/netif/ethernetif.h"
+#include "Dave/Generated/ETH_LWIP/lwip/include/netif/etharp.h"
+#include "Libraries/CMSIS/Infineon/XMC4700_series/Include/XMC4700.h"
+
+
+/**
+ * @brief variables used for setting the IP address, default gateway, subnet mask and MAC address
+ * Setting the MAC address doesn't work
+ */
+
+extern int BOARD_IFRO_007_002;
+
+
+uint64_t mac_addr;//__attribute__((section(".no_init")));
+int mac_set_by_user = 0;// __attribute__((section(".no_init")));
+
+extern XMC_ETH_MAC_t eth_mac;
+extern struct netif xnetif;
+
+/*
+ * @brief Function to initialize the LWIP software stack.
+ *
+ * @param[in]  handle ETH_LWIP APP handle pointer of type ETH_LWIP_t*
+ *
+ * @return  ETH_LWIP_STATUS_t
+ *          ETH_LWIP_SUCCESS: for successful LWIP initialization.<BR>
+ *          ETH_LWIP_STATUS_FAILURE  : If LWIP initialization fails.<BR>
+ *
+ */
+ETH_LWIP_STATUS_t ETH_LWIP_Customized_Init(ETH_LWIP_t* handle)
+{
+	ETH_LWIP_STATUS_t status = ETH_LWIP_STATUS_SUCCESS;
+
+	mac_addr = eth_mac.address;
+
+
+	if (handle->initialized == false)
+	{
+		/*Initialize SYSTIMER APP*/
+		status = (ETH_LWIP_STATUS_t)SYSTIMER_Init(&ETH_SYSTIMER_NAME);
+
+		lwip_init();
+
+
+		/*  Registers the default network interface.*/
+		netif_set_default(&xnetif);
+
+		/* If callback enabled */
+#if LWIP_NETIF_STATUS_CALLBACK == 1
+		/* Initialize interface status change callback */
+		netif_set_status_callback(&xnetif, ETH_NETIF_STATUS_CB_FUNCTION);
+#endif
+
+		/* device capabilities */
+		xnetif.flags |= NETIF_FLAG_ETHARP;
+
+#if ETH_BROADCAST_EN == 1
+		xnetif.flags |= NETIF_FLAG_BROADCAST;
+#endif
+
+#if LWIP_DHCP == 1
+		/* Enable DHCP flag if DHCP is configured*/
+		xnetif.flags |= NETIF_FLAG_DHCP;
+#endif
+
+		handle->initialized = true;
+		handle->eth_mac = &eth_mac;
+		handle->xnetif = &xnetif;
+	}
+	return status;
+}
+
+
+/**
+ * This method clears the response TCP/IP buffer. It prepares the buffer for the next message.
+ */
+void clearMessageReceived()
+{
+	int i;
+	for(i=0; i < BUFFER_SIZE; i++)
+	{
+		messageReceived[i] = 0x00;
+	}
+}
+
+/**
+ * Close all active connections and disconnect the clients.
+ *
+ * @return <code>XMCGVISA_OK</code> error code
+ */
+err_t disconnectAllActiveClients()
+{
+	struct tcp_pcb *p = tcp_active_pcbs;
+	while(NULL != p)
+	{
+		tcp_close(p);
+		tcp_abandon(p , 0); // abandon the connection without sending a reset message
+		p = p->next;
+	}
+
+	return XMCGVISA_OK;
+}
+
+/**
+ * Sends a message to all connected clients.
+ * It is recommended for the message to have '\n' at the and as EOM character.
+ *
+ * @param message - the message to be sent
+ *
+ * @return <code>XMCGVISA_OK</code> error code
+ */
+err_t sendMessageToClients(char* message)
+{
+	struct tcp_pcb* tpcb = tcp_active_pcbs;
+	while(NULL != tpcb)
+	{
+		tcpSendData(tpcb, message, strlen(message));
+		tpcb = tpcb->next;
+	}
+
+	return XMCGVISA_OK;
+}
+
+/**
+ * Checks if the received message is complete or not.
+ * The methods looks for '\n' inside the message as EOM (End Of Message).
+ * If the received message has a length equals to 1, this method will save it, but it will not return that the message is completely received.
+ *
+ * @param p - the pbuf structure that contains the message
+ *
+ * @return	<code>XMCGVISA_MSG_INCOMPLETE</code> if the message is not complete
+			<code>XMCGVISA_MSG_OK</code> if the message is complete
+ */
+err_t isMessageReceivedCompletely(struct pbuf* p)
+{
+	int len = strlen((char*)p->payload);
+
+	if(1 == len)
+	{ // save the first element in the received message
+		memcpy(messageReceived,(char*)p->payload, len);
+		messageReceived[1] = '\0';
+
+		return XMCGVISA_MSG_INCOMPLETE; // Message not complete. Wait for '\n'
+	}
+	else if (1 < len)
+	{ // save the rest of the received message
+		char message[BUFFER_SIZE] = {0x00};
+		memcpy(message,(char*)p->payload, len);
+
+		int aux = containsChar(message, len, '\n');
+		if ( 0 > aux )
+		{ // there was no '\n' inside the message so, the message is considered as garbage.
+			// or it could be just the header, without a message.
+			// it can be a VISA request
+			return XMCGVISA_MSG_INCOMPLETE;
+		}
+		for (; aux < BUFFER_SIZE; aux++)
+		{
+			message[aux] = '\0'; // Overwrite '\n' and everything else with '\0'
+		}
+		strcat(messageReceived, message);
+
+		//TODO: check for VISA header, interpret & delete it
+		return XMCGVISA_MSG_OK; // Message complete
+	}
+	else
+	{
+		return XMCGVISA_MSG_INCOMPLETE;
+	}
+}
+
+/**
+ * This callback function is called when a TCP/IP messages is received.
+ * It sends the received message over RS232 or a response back on TCP/IP.
+ *
+ * @param arg - unused argument
+ * @param tpcb - the client's tcp_pcb structure
+ * @param p - the pbuf structure the contains the message from the client
+ * @param err - the entry error code
+ *
+ * @return	<code>XMCGVISA_OK</code> if everything is all right, the buffer is null or the received message is not complete
+ * 			an error code
+ */
+err_t tcp_received_callback(void* arg, struct tcp_pcb* tpcb, struct pbuf* p, err_t err)
+{
+
+	LWIP_UNUSED_ARG(arg);
+
+
+	if (p == NULL)
+	{ // if the pbf structure is null
+		tcp_close(tpcb); 		// close the tcp_pcb structure
+		tcp_recv(tpcb, NULL);	// put the callback method for receiving messages on null
+		return XMCGVISA_OK;		// exit the callback
+	}
+
+	if (XMCGVISA_MSG_INCOMPLETE == isMessageReceivedCompletely(p))
+	{
+		tcp_recved(tpcb, p->len); 	// indicate that the packet has been received
+		pbuf_free(p); 				// free message buffer
+		return XMCGVISA_OK;			// exit the callback
+	}
+
+
+//	if	((( queueWriteFlag + 1 ) % 100) == queueReadFlag)
+//	{
+//		XMCGoesVisaStatus = XMCGVISA_ERR_STOP;
+//	}
+//	else
+//	{
+//		memcpy(rcv[queueWriteFlag].msg,messageReceived,sizeof(messageReceived));
+//		rcv[queueWriteFlag].interface = TCP_INTERFACE;
+//		rcv[queueWriteFlag].tpcb = tpcb;
+//		queueWriteFlag = (queueWriteFlag + 1) % 100;
+//	}
+
+	static ReceivedParam rcv;
+
+	memset(rcv.msg,'\0',BUFFER_SIZE);
+
+	memcpy(rcv.msg,messageReceived,sizeof(messageReceived));
+	rcv.interface = TCP_INTERFACE;
+	rcv.tpcb = tpcb;
+
+	XMCGoesVisaStatus = pushStateMachineQueue(&queue,rcv);
+
+
+	if (XMCGVISA_OK != XMCGoesVisaStatus )
+	{
+		if (ERR_BUFFER_SIZE == errBufferIdx)
+		{
+			tcp_recved(tpcb, p->len); 	// indicate that the packet has been received
+			pbuf_free(p); 				// free message buffer
+			return XMCGVISA_OK; 		// XMCGVISA_MEM ?	// exit the callback
+		}
+		errBuffer[errBufferIdx++] = XMCGoesVisaStatus; //save the error status
+	}
+
+	clearMessageReceived();
+
+	tcp_recved(tpcb, p->len); 	// indicate that the packet has been received
+	pbuf_free(p); 				// free message buffer
+	return XMCGVISA_OK;			// exit the callback
+}
+
+/**
+ * This callback function is used when a Reboot message is received on <code>LOCAL_RESET_PORT</code> port
+ * It sends the received message on RS232 or a response back on TCP/IP.
+ *
+ * @param arg - unused argument
+ * @param tpcb - the client's tcp_pcb structure
+ * @param p - the buffer the contains the message from the client
+ * @param err - the entry error code
+ *
+ * @return	<code>XMCGVISA_OK</code> if everything is alright, the buffer is null or the received message is not complete
+ * 			an error code
+ */
+err_t tcp_received_reset_callback(void* arg, struct tcp_pcb* tpcb, struct pbuf* p, err_t err)
+{
+	LWIP_UNUSED_ARG(arg);
+
+	if (p == NULL)
+	{
+		tcp_close(tpcb);
+		tcp_recv(tpcb, NULL);
+		return XMCGVISA_OK;
+	}
+
+	if (XMCGVISA_MSG_INCOMPLETE == isMessageReceivedCompletely(p))
+	{
+		tcp_recved(tpcb, p->len); 	// indicate that the packet has been received
+		pbuf_free(p); 				// free message buffer
+		return XMCGVISA_OK;
+	}
+
+	if (0 == strcasecmp("Reboot",messageReceived))
+	{ // if its a reboot message
+		sendMessageToClients("The server will be restarted.\n"); // notify the other clients that the server is now free
+		rebootSystem = 1;
+		XMCGoesVisaStatus = XMCGVISA_OK;
+	}
+	else
+	{ // inform the user about the accepted command
+		int messageLength = strlen("Only \"Reboot\" messages are accepted on this port.\n");
+		char message[] = "Only \"Reboot\" messages are accepted on this port.\n";
+		tcpSendData(tpcb, message, messageLength);
+		XMCGoesVisaStatus = XMCGVISA_OK;
+	}
+
+	clearMessageReceived();
+
+	tcp_recved(tpcb, p->len); 	// indicate that the packet has been received
+	pbuf_free(p); 				// free message buffer
+	return XMCGVISA_OK;			// exit the callback
+}
+
+/**
+ * This callback function is called when a TCP/IP messages had been sent.
+ * It can be used for signaling the end of transmission.
+ *
+ * @param arg - unused argument
+ * @param tpcb - the client's tcp_pcb structure
+ * @param len - the length of the message that had been sent
+ *
+ * @return - the exit error code
+ */
+err_t tcp_sent_callback(void* arg, struct tcp_pcb* tpcb, u16_t len)
+{
+	tpcb->unsent = NULL;
+	return ERR_OK;
+}
+
+/**
+ * This callback function specifies the end of acceptance for a new client.
+ * It receives tcp_pcb structure of the client and sets the callback functions for the given tcp_pcb structure.
+ * Client connection state is set to "ESTABLISHED".
+ * The method checks if the connection is on normal port or on Reboot port and sets the proper receive callback method.
+ *
+ * @param arg - unused argument
+ * @param tpcb - the client's tcp_pcb structure
+ * @param frags - unused argument
+ *
+ * @return - the exit error code
+ */
+err_t tcp_accepted_callback(void *arg, struct tcp_pcb *tpcb, signed char flags)
+{
+	if (LOCAL_RESET_PORT == tpcb->local_port)
+	{ // if the connection is on Reset port, set a different receive callback method
+		tcp_recv(tpcb, tcp_received_reset_callback);
+	}
+	else
+	{
+		tcp_recv(tpcb, tcp_received_callback);
+	}
+	tcp_sent(tpcb, tcp_sent_callback);
+	tcp_err(tpcb, tcp_err_callback);
+	tcp_poll(tpcb, NULL, 1);
+	tcp_arg(tpcb, NULL);
+	tcp_accepted(tpcb);
+
+	return XMCGVISA_OK;
+}
+
+/**
+ * This callback function is call when a fatal error has occurred on the connection for a tcp_pcbs structure.
+ *
+ * @param arg - unused argument
+ * @param err - the entry error code
+ *
+ * @return - the exit error code
+ */
+void tcp_err_callback(void *arg, err_t err)
+{
+	//	TODO: Treat the error properly.
+	return;
+}
+
+/**
+ * This method calls the initializing methods combination for a TCP/IP server.
+ * The server accepts connections from any IP address on the given port.
+ *
+ * @param port - the port number for the server to use on accepting a connection
+ */
+void tcpInitServer(unsigned int port)
+{
+	struct tcp_pcb *pcb;					// define a TCP_PCB structure
+	pcb = tcp_new();						// initialize the new TCP PCB structure
+	tcp_bind(pcb, IP_ADDR_ANY, port);		// bind the TCP_PCB structure with any IP address on the given port
+	pcb = tcp_listen(pcb);					// listen for connections
+	tcp_accept(pcb, tcp_accepted_callback);	// accept the connection and attach the given callback
+	XMCGoesVisaStatus = XMCGVISA_OK;
+}
+
+/**
+ * Sends the message through TCP/IP to the specified client.
+ *
+ * @param tpcb - the client
+ * @param message - the message to be sent over TCP/IP
+ * @param len - the length of the message
+ *
+ * Check first how does the app split the messages.
+ */
+void tcpSendData(struct tcp_pcb *tpcb, char* message, uint32_t len)
+{
+	if (ESTABLISHED != tpcb->state)
+	{ // the connection with the client is not established.
+		tcp_err_callback(NULL, 0x00);
+		return;
+	}
+
+	int messageLength = len;
+	char dataToSend[BUFFER_SIZE] = {0x00};				// initialize a static buffer
+	memcpy(dataToSend,message,messageLength);			// copy the message into the new buffer
+
+	if( '\n' != dataToSend[messageLength-1] )
+	{ // add '\n' at the end of the message
+		strcat(dataToSend, "\n");
+		messageLength ++;
+	}
+	tcp_write(tpcb,dataToSend,messageLength,TCP_WRITE_FLAG_COPY);
+	tcp_output(tpcb);
+}
+
+/**
+ * Sends the received message through TCP/IP to the locked client, if any.
+ *
+ * @param data - the message to be sent over TCP/IP
+ * @param len - the length of the message
+ */
+void tcpSendDataToLockedClient(char* data, uint32_t len)
+{
+	if (1 == serverLocked
+			&& 1 == serverLockedByTCPclient
+			&& ESTABLISHED == tcpPcbLockedClient->state)
+	{
+		int messageLength = len;
+		char dataToSend[BUFFER_SIZE] = {0x00};			// initialize a static buffer
+		memcpy(dataToSend,data,messageLength);			// copy the message into the new buffer
+
+		if( '\n' != data[messageLength-1] )
+		{ // add '\n' at the end of the message
+			strcat(dataToSend, "\n");
+			messageLength ++;
+		}
+		tcp_write(tcpPcbLockedClient,dataToSend,messageLength,TCP_WRITE_FLAG_COPY);
+		tcp_output(tcpPcbLockedClient);
+	}
+	else
+	{
+		//??
+		//		if (1 != serverLocked || ESTABLISHED != tcpPcbLockedClient->state)
+		//		{
+		//			serverLocked = 0; // release the lock on server
+		//			serverLockedByTCPclient = 0;
+		//		}
+		tcp_err_callback(NULL, 0x00);
+	}
+}
+

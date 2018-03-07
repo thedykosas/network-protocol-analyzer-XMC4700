@@ -1,0 +1,20 @@
+/*
+ * utils.h
+ *
+ *  Created on: Jul 28, 2016
+ *      Author: BotezDia
+ */
+
+#ifndef XMC_GOES_VISA_INCLUDE_UTILS_H_
+#define XMC_GOES_VISA_INCLUDE_UTILS_H_
+
+#include <DAVE.h>
+
+/* Public methods */
+int containsChar(char* message, int len, char ch);
+void shiftStringLeft(char* message, int len, uint8_t step);
+char* shiftStringRight(char* message, int len, uint8_t step);
+void shiftStringRight2(char* message, int len, uint8_t step);
+err_t changeModeCommand(char* message);
+
+#endif /* XMC_GOES_VISA_INCLUDE_UTILS_H_ */

@@ -1,0 +1,97 @@
+/*
+ * utils.c
+ *
+ *  Created on: Jul 28, 2016
+ *      Author: BotezDia
+ */
+
+#include "utils.h"
+#include "macros.h"
+
+/**
+ * Search for the given character inside the given message and return its position.
+ *
+ * @param message - the given message for the search
+ * @param len - the length of the given message
+ * @param ch - the character to search
+ *
+ * @return - the index of the given character if found or -1 if the character is not found
+ */
+
+extern int BOARD_IFRO_007_002;
+
+int containsChar(char* message, int len, char ch)
+{
+	for(int i=0; i<len; i++)
+	{
+		if(ch == message[i])
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+
+/**
+ * Shift the message to the left with the given number of positions.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+void shiftStringLeft(char* message, int len, uint8_t step)
+{
+	int i;
+	for (i=step; i<len; i++)
+	{
+		message[i-step] = message[i];
+	}
+
+	if ((i-step) < len)
+		message[i-step] = '\0'; // make sure that '\0' is at the end of the message;
+}
+
+/**
+ * Shift the message to the right with the given number of positions.
+ * Make sure the buffer is long enough to avoid memory errors.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+char* shiftStringRight(char* message, int len, uint8_t step)
+{
+	char result[BUFFER_SIZE];// = malloc(sizeof(char) * (len+step));
+	int i;
+	for (i=0; i<len; i++)
+	{
+		result[i+step] = message[i];
+	}
+
+	return result;
+}
+
+/**
+ * Shift the message to the right with the given number of positions.
+ *
+ * @param message - the given message to shift
+ * @param len - the length of the message
+ * @param step - the number of position to shift
+ */
+void shiftStringRight2(char* message, int len, uint8_t step)
+{
+//	char result[BUFFER_SIZE];// = malloc(sizeof(char) * (len+step));
+	int i;
+	for (i=len-1; i>=0; i--)
+	{
+		message[i+step] = message[i];
+
+	}
+	for (i=0; i<12; i++)
+	{
+		message[i] = 0x00;
+	}
+
+//	return result;
+}
+
