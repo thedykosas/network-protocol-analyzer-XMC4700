@@ -2749,3 +2749,24 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY CODEGEN 1 0 2018-03-07 19:53:48.815
 !MESSAGE Code generation completed...
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 20:28:54.241
+!MESSAGE *************Saving EMF data into file system*******************
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 20:28:54.311
+!MESSAGE *************Saving Groovy data into file system*******************
+
+!ENTRY COMMON 1 0 2018-03-07 20:28:54.461
+!MESSAGE Time Taken By Serialization  : 150 ms :: C:\Users\panainte\Desktop\documentatie\workspace-dave\network-protocol-analyzer-XMC4700\Dave\Model\projectData.bin
+
+!ENTRY com.dave.mbs.common 1 0 2018-03-07 20:28:54.711
+!MESSAGE ****************Cleaning project data:network-protocol-analyzer-XMC4700*******************
+
+!ENTRY APPLICATION_MODEL 1 0 2018-03-07 20:28:54.731
+!MESSAGE USER_ACTION : Time taken for disposing objects for memory cleanup: 210 msec 
+
+!ENTRY SOLVER 1 0 2018-03-07 20:28:54.731
+!MESSAGE Solver exited (0)
+
+!ENTRY SOLVER 1 0 2018-03-07 20:28:54.981
+!MESSAGE USER_ACTION : Solver Status: DISCONNECTED

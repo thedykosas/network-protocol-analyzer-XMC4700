@@ -2,11 +2,18 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+		<item value="sent" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="sent"/>
+			<item value="tcpInitServer"/>
+			<item value="tcp_active_pcbs"/>
+			<item value="containschar"/>
+			<item value="ip4_addr"/>
+			<item value="tcp_fasttmr"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -15,7 +22,7 @@
 		<item value="273" key="DIALOG_WIDTH"/>
 		<item value="1|Tahoma|8.4|0|WINDOWS|1|-14|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
 		<item value="405" key="DIALOG_HEIGHT"/>
-		<item value="791" key="DIALOG_X_ORIGIN"/>
-		<item value="334" key="DIALOG_Y_ORIGIN"/>
+		<item value="1396" key="DIALOG_X_ORIGIN"/>
+		<item value="306" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
