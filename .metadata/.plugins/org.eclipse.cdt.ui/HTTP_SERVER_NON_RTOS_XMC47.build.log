@@ -1,0 +1,57 @@
+18:03:12 **** Incremental Build of configuration Debug for project HTTP_SERVER_NON_RTOS_XMC47 ****
+"\"C:\\DAVEv4-64Bit\\DAVE-4.3.2\\eclipse\\ARM-GCC-49\\bin\\make\"" --output-sync -j4 pre-build main-build 
+'Create ROM file system'
+"C:\Users\panainte\Desktop\documentatie\workspace-dave\HTTP_SERVER_NON_RTOS_XMC47\Dave\Generated\HTTP_SERVER\makefsdata/makefsdata" "C:\Users\panainte\Desktop\documentatie\workspace-dave\HTTP_SERVER_NON_RTOS_XMC47\Resources" "-f:"C:\Users\panainte\Desktop\documentatie\workspace-dave\HTTP_SERVER_NON_RTOS_XMC47\Dave\Generated\HTTP_SERVER"\fsdata.dat"
+
+
+ makefsdata - HTML to C source converter
+
+     by Jim Pettinato               - circa 2003 
+
+     extended by Simon Goldschmidt  - 2009 
+
+
+
+Writing to file "C:\Users\panainte\Desktop\documentatie\workspace-dave\HTTP_SERVER_NON_RTOS_XMC47\Dave\Generated\HTTP_SERVER\fsdata.dat"
+HTTP 1.0 header will be statically included.
+
+  Processing all files in directory C:\Users\panainte\Desktop\documentatie\workspace-dave\HTTP_SERVER_NON_RTOS_XMC47\Resources and subdirectories...
+
+
+
+processing /404.htm...
+
+processing /cgi.htm...
+
+processing /data.ssi...
+
+processing /img_sics.gif...
+
+processing /index.htm...
+
+processing /jquery.min.js...
+
+processing /smoothie.min.js...
+
+
+
+Creating target file...
+
+
+
+
+
+Processed 7 files - done.
+
+
+
+
+'Invoking: ARM-GCC Print Size'
+"C:/DAVEv4-64Bit/DAVE-4.3.2/eclipse/ARM-GCC-49/bin/arm-none-eabi-size" --format=berkeley "HTTP_SERVER_NON_RTOS_XMC47.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 147436	    236	  44712	 192384	  2ef80	HTTP_SERVER_NON_RTOS_XMC47.elf
+'Finished building: HTTP_SERVER_NON_RTOS_XMC47.siz'
+
+
+18:03:13 Build Finished (took 750ms)
+

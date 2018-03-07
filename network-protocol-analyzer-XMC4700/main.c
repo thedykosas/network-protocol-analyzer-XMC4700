@@ -5,9 +5,6 @@
  *  Author: panainte
  */
 
-
-
-
 #include <DAVE.h>                 //Declarations from DAVE Code Generation (includes SFR declaration)
 
 /**
@@ -19,27 +16,29 @@
  * invoking the APP initialization dispatcher routine - DAVE_Init() and hosting the place-holder for user application
  * code.
  */
-
-int main(void)
+uint8_t send_buff[]="int\r\t";
+void netif_status_cb(void)
 {
-  DAVE_STATUS_t status;
 
-  status = DAVE_Init();           /* Initialization of DAVE APPs  */
+	UART_Transmit(&UART_0,send_buff,strlen((const char *)send_buff));
+}
 
-  if(status != DAVE_STATUS_SUCCESS)
-  {
-    /* Placeholder for error handler code. The while loop below can be replaced with an user error handler. */
-    XMC_DEBUG("DAVE APPs initialization failed\n");
+int main(void) {
+	DAVE_STATUS_t status;
 
-    while(1U)
-    {
+	status = DAVE_Init(); /* Initialization of DAVE APPs  */
 
-    }
-  }
+	if (status != DAVE_STATUS_SUCCESS) {
+		/* Placeholder for error handler code. The while loop below can be replaced with an user error handler. */
+		XMC_DEBUG("DAVE APPs initialization failed\n");
 
-  /* Placeholder for user application code. The while loop below can be replaced with user application code. */
-  while(1U)
-  {
+		while (1U) {
 
-  }
+		}
+	}
+	/* Placeholder for user application code. The while loop below can be replaced with user application code. */
+	while (1U) {
+
+		UART_Transmit(&UART_0,send_buff,strlen((const char *)send_buff));
+	}
 }
